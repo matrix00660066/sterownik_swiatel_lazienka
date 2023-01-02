@@ -55,6 +55,8 @@ void setup()
   lcd.backlight();
 }
 
+void debugging();
+
 void loop()
 {
 
