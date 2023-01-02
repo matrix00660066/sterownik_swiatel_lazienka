@@ -59,7 +59,6 @@ void debugging();
 
 void loop()
 {
-
   stanWlacznikaGora = digitalRead(wlacznikGora);         // odczytuję czy któryś z włączników został naciśnięty
   stanWlacznikaLustro = digitalRead(wlacznikLustro);     // odczytuję czy któryś z włączników został naciśnięty
   stanWlacznikaPrysznic = digitalRead(wlacznikPrysznic); // odczytuję czy któryś z włączników został naciśnięty
